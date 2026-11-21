@@ -1,30 +1,69 @@
-# Telecom Customer Churn Analysis
+# 📊 Telecom Customer Churn Analysis
 
 ### An Excel-Based Business Analytics Case Study
 
-## Project Overview
+![Excel](https://img.shields.io/badge/Microsoft_Excel-Data_Analysis-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Statistical_Analysis-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Project-In_Progress-orange?style=for-the-badge)
 
-Customer churn is a major challenge in the telecommunications industry. Understanding why customers discontinue services helps businesses identify retention opportunities and make informed decisions.
+---
 
-This project analyses a telecom customer dataset containing **4,250 customer records** to explore churn patterns, customer behaviour, service usage, and potential revenue impact.
+## 📌 Table of Contents
 
-The objective is to transform raw customer data into meaningful business insights using data analysis and statistical techniques in Microsoft Excel.
+1. [Project Overview](#-project-overview)
+2. [Business Problem](#-business-problem)
+3. [Project Objectives](#-project-objectives)
+4. [Dataset Overview](#-dataset-overview)
+5. [Tools and Technologies](#-tools-and-technologies)
+6. [Analysis Framework](#-analysis-framework)
+7. [Key Findings](#-key-findings)
+8. [Repository Structure](#-repository-structure)
+9. [Skills Demonstrated](#-skills-demonstrated)
+10. [Future Enhancements](#-future-enhancements)
+11. [Project Status](#-project-status)
 
-## Business Objectives
+---
 
-- Measure the overall customer churn rate.
+## 📖 Project Overview
+
+Customer churn is one of the major challenges faced by businesses in the telecommunications industry.
+
+Understanding customer behaviour, service usage patterns and factors associated with customer attrition can help businesses develop effective customer retention strategies.
+
+This project explores telecom customer churn using a dataset containing **4,250 customer records**.
+
+The analysis focuses on identifying churn patterns, understanding customer behaviour, examining service usage and evaluating the potential financial impact of customer attrition.
+
+The project uses Microsoft Excel for business analysis, supported by statistical techniques and Python-based analysis.
+
+## 🎯 Business Problem
+
+Telecommunication companies need to understand:
+
+- Which customer segments are more likely to discontinue services?
+- What customer behaviours are associated with higher churn?
+- Do service plans and usage patterns influence customer retention?
+- How does customer churn affect revenue?
+- What opportunities exist for improving customer retention?
+
+This project investigates these questions through structured data analysis.
+
+## 🎯 Project Objectives
+
+- Calculate and understand the overall customer churn rate.
 - Identify customer segments with higher churn.
-- Analyse relationships between service usage and customer churn.
-- Explore the impact of service plans on customer retention.
-- Examine revenue associated with churn.
-- Develop data-driven customer retention recommendations.
+- Examine relationships between service usage and customer attrition.
+- Analyse the influence of different service plans.
+- Explore customer usage patterns through segmentation.
+- Evaluate the revenue associated with churn.
+- Develop data-driven business insights and retention recommendations.
 
-## Dataset Overview
+## 📂 Dataset Overview
 
 | Attribute | Details |
 |---|---|
 | Industry | Telecommunications |
-| Total Records | 4,250 |
+| Total Customer Records | 4,250 |
 | Original Attributes | 20 |
 | Churned Customers | 598 |
 | Non-Churned Customers | 3,652 |
@@ -32,52 +71,73 @@ The objective is to transform raw customer data into meaningful business insight
 | Duplicate Records | 0 |
 | Overall Churn Rate | 14.07% |
 
-*Dataset quality figures and analytical results will be revalidated against the final workbook before publication.*
+The dataset contains customer information, service plan details, usage metrics, service interactions and churn status.
 
-## Tools and Technologies
+*Dataset statistics are based on the initial assessment and will be revalidated before the final project release.*
 
-- **Microsoft Excel:** Data analysis, formulas, segmentation, statistical calculations and visualisation.
-- **Python:** Supporting statistical analysis.
-- **GitHub:** Project documentation and version control.
+## 🛠️ Tools and Technologies
 
-## Analytical Areas
+| Tool | Purpose |
+|---|---|
+| Microsoft Excel | Data cleaning, formulas, analysis, segmentation and visualisation |
+| Python | Supporting statistical analysis and modelling |
+| GitHub | Project documentation and version control |
 
-The project is structured around 25 business questions across three difficulty levels.
+## 🔍 Analysis Framework
+
+The project is organised around **25 business questions**, divided into three analytical levels.
 
 ### 1. Basic Analysis
+
+Focus: Understanding overall churn patterns and customer behaviour.
+
+Areas explored:
+
 - Overall customer churn rate.
-- Account length and churn.
+- Account length and customer retention.
 - International Plan and Voice Mail Plan analysis.
 - Customer service interactions.
 - Day, evening and night usage patterns.
 - Correlation analysis.
 
 ### 2. Intermediate Analysis
+
+Focus: Identifying patterns across customer segments.
+
+Areas explored:
+
 - Area-code-based churn segmentation.
 - Customer service call thresholds.
-- Usage-based segmentation.
-- International charges and customer behaviour.
+- Account length segmentation.
+- International charges and usage patterns.
+- Evening usage behaviour.
 - K-means customer segmentation.
 
 ### 3. Advanced Analysis
-- Logistic regression for churn analysis.
+
+Focus: Applying statistical and analytical techniques to understand complex churn relationships.
+
+Areas explored:
+
+- Logistic regression analysis.
 - Customer usage clustering.
 - Interaction effects between customer attributes.
-- Revenue impact and estimated customer lifetime value.
+- Revenue impact of customer churn.
+- Estimated Customer Lifetime Value (CLV).
 
-## Key Findings
+## 📈 Key Findings
 
-Initial analysis suggests:
+Initial analysis has identified several interesting patterns:
 
-- Overall customer churn is approximately 14.07%.
-- Customers with four or more customer service calls have a considerably higher churn rate.
-- International Plan subscribers show higher churn rates than customers without the plan.
-- Usage-based customer segments demonstrate different churn patterns.
+- The overall customer churn rate is approximately **14.07%**.
+- Customers with four or more customer service calls show a substantially higher churn rate.
+- International Plan subscribers have a higher observed churn rate than customers without the plan.
+- Customer usage segments demonstrate different churn patterns.
 - Revenue analysis highlights the potential financial importance of customer retention.
 
-All findings will be validated before the final release.
+These are preliminary findings and will be validated against the final Excel workbook before publication.
 
-## Project Structure
+## 📁 Repository Structure
 
 ```text
 telecom-customer-churn-analysis/
@@ -96,18 +156,58 @@ telecom-customer-churn-analysis/
 └── additional-resources/
 ```
 
-## Project Status
+*The final documents and workbook will be added after verification.*
 
-**Current Stage:** Repository and documentation preparation.
+## 💡 Skills Demonstrated
 
-The Excel analysis and documentation are being reviewed and will be added after final verification.
+This project aims to demonstrate practical skills in:
 
-## Future Enhancements
+- Data cleaning and preparation.
+- Exploratory Data Analysis (EDA).
+- Excel formulas and functions.
+- Statistical analysis.
+- Customer segmentation.
+- Data interpretation.
+- Business problem-solving.
+- Data-driven decision-making.
+- Analytical documentation.
 
-- Recreate analytical queries using SQL.
-- Develop an interactive Power BI dashboard.
-- Add advanced visualisations and interactive business insights.
+## 🚀 Future Enhancements
 
-## Project Objective
+The project is planned to expand beyond Excel through additional analytical tools.
 
-The ultimate goal is to demonstrate how data analysis can help businesses understand customer behaviour, identify churn patterns, and make informed retention decisions.
+**SQL Integration**
+- Store and manage customer data.
+- Perform customer segmentation using SQL queries.
+- Recreate important churn and revenue analyses.
+
+**Power BI Dashboard**
+- Develop an interactive customer churn dashboard.
+- Visualise customer segments and churn patterns.
+- Present revenue and retention insights.
+- Enable interactive filtering and exploration.
+
+These enhancements will form the next phase of the project.
+
+## 📌 Project Status
+
+**Current Status: Documentation and Repository Preparation**
+
+| Component | Status |
+|---|---|
+| Dataset assessment | Initial assessment completed |
+| Excel analysis | Completed; verification pending |
+| Case study documentation | Drafted |
+| Solution guide | Pending verification |
+| GitHub repository | Created |
+| Final project upload | Pending |
+| SQL analysis | Planned |
+| Power BI dashboard | Planned |
+
+## 🎯 Project Goal
+
+The goal of this project is to demonstrate how structured data analysis can transform customer information into meaningful business insights and support better customer retention decisions.
+
+---
+
+**Developed as a Business Analytics Portfolio Project.**
